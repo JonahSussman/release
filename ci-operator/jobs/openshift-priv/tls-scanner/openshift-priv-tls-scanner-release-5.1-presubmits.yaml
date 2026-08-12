@@ -354,6 +354,7 @@ presubmits:
     branches:
     - ^release-5\.1$
     - ^release-5\.1-
+    cluster: build10
     context: ci/prow/tls13-adherence-azure
     decorate: true
     decoration_config:
@@ -446,6 +447,7 @@ presubmits:
     branches:
     - ^release-5\.1$
     - ^release-5\.1-
+    cluster: build13
     context: ci/prow/tls13-adherence-gcp
     decorate: true
     decoration_config:
